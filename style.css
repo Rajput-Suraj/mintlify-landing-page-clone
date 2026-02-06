@@ -14,6 +14,7 @@
   --bg-light: rgba(255, 255, 255, 0.1);
   --accent-green: #22c55e;
   --border-subtle: rgba(148, 163, 184, 0.25);
+  --bg-alt: #151616;
 }
 
 body {
@@ -26,7 +27,7 @@ body {
     sans-serif;
   position: relative;
   color: var(--text);
-  background-color: var(--bg-dark);
+  /* background-color: var(--bg-dark); */
 }
 
 .page {
@@ -252,4 +253,59 @@ body {
 
 .text-center {
   text-align: center;
+}
+
+/**************************************************** ENTERPRISE FEATURES ********************************************** */
+
+#enterprise-feature {
+  display: flex;
+  gap: 24px;
+  padding: 96px clamp(20px, 10vw, 140px);
+  background-color: var(--bg-dark);
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.flex-div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.section-title {
+  line-height: 110%;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: -0.8px;
+  font-size: 40px;
+}
+
+.light-text {
+  color: var(--text-muted);
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.btn {
+  width: auto;
+  padding: 8px 12px;
+  border-radius: 50px;
+  border: none;
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.explore-btn {
+  font-weight: 500;
+  height: 40px;
+}
+
+.explore-btn:hover {
+  background-color: var(--text-muted);
 }
