@@ -361,3 +361,22 @@ body {
   object-position: center;
   height: 518px;
 }
+
+.dark-logos-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 35px 155px;
+}
+
+.dark-logos-container img {
+  height: 50px;
+  width: 120px;
+  object-fit: contain;
+  object-position: center;
+  filter: grayscale(100%) brightness(0.7);
+  opacity: 0.8;
+}
