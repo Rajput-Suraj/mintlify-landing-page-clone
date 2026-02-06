@@ -348,3 +348,16 @@ body {
 .block-svg svg {
   color: var(--accent-green);
 }
+
+.anthropic-feature-img {
+  width: 100%;
+  margin: 0 auto;
+  max-width: var(--max-width);
+  text-align: center;
+}
+
+.anthropic-feature-img img {
+  object-fit: cover;
+  object-position: center;
+  height: 518px;
+}
